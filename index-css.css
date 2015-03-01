@@ -3,30 +3,68 @@ body {
   text-align: center;
 }
 /*-----------------------------------------------------------*/
-nav {
 
+nav {
+  margin: 0px auto;
+  width: 50%;
 }
 /*-----------------------------------------------------------*/
+
 aside {
-  text-align: left;
-  margin:0px auto;
-  width:50%;
+  margin: 0px auto;
+  width: 50%;
 }
 /*-----------------------------------------------------------*/
+
 li {
   display: inline;
 }
 /*-----------------------------------------------------------*/
+
 p {
   display: inline;
 }
 /*-----------------------------------------------------------*/
+
 ul {
   display: inline;
 }
 /*-----------------------------------------------------------*/
-.blog {
-  float:left;
-  margin-right:50px;
+
+main#main-atc {
+  display: table;
+  margin: 0px auto;
+  width: 50%;
+}
+main#main-atc > div {
+  display: table-cell;
+  width: 50%;
+}
+
+main#main-atc > div > article {
+  display:table;
+}
+
+main#main-atc > div > article > * {
+    margin: 0px auto;
+    width: 50%;
+    vertical-align: top;
+    display: table-cell;
+}
+.textleft {
   text-align: left;
+}
+/*-----------------------------------------------------------*/
+
+.nav-footer{
+  display: table;
+  margin: 0px auto;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+}
+
+.page-top{
+  display: inline;
+  float:right;
 }
